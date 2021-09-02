@@ -1,0 +1,36 @@
+import {Canvas, Meta, Story} from '@storybook/addon-docs';
+import {DocsButton} from './DocsButton';
+import Licence from './license-info.mdx';
+// transcludeMarkdown option needs to be set for this to work, see in main.js
+import ContactInfo from './contact-info.md';
+
+<Meta title="Example/DocsButton" component={DocsButton}/>
+
+<Licence/>
+
+## Primary button
+
+Use this button for call to action and prominent places on the screen.
+For more information visit the [branding guidelines](https://www.google.com)
+
+export const Template = (args) => <DocsButton label={'Hello'} {...args}/>
+
+<Canvas withSource={'closed'}>
+    <Story name='Primary' args={{
+        primary: true
+    }}>
+        {Template.bind({})}
+    </Story>
+</Canvas>
+
+## Secondary button
+
+This button should be used for all other parts of the screen. Please also see the other [button types](?path=/story/example-new-button--primary).
+
+<Canvas withSource={'closed'}>
+    <Story name='Secondary'>
+        {Template.bind({})}
+    </Story>
+</Canvas>
+
+<ContactInfo/>
