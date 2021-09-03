@@ -15,4 +15,9 @@ jobs:
         registry-url: 'https://registry.npmjs.org'
 
     - name: Build and deploy
-      run: yarn install --frozen-lockfile && yarn build-storybook
+      run: |
+        yarn install --frozen-lockfile
+        git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+        yarn run deploy -- -u "github-actions-bot <support+actions@github.com>"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
