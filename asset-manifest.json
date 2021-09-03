@@ -1,12 +1,12 @@
 {
   "files": {
     "0.704fe7cc.iframe.bundle.js": "./0.704fe7cc.iframe.bundle.js",
-    "main.css": "./static/css/main.4c68319a.chunk.css",
-    "main.js": "./main.c7b849e6.iframe.bundle.js",
-    "main.css.map": "./static/css/main.4c68319a.chunk.css.map",
+    "main.css": "./static/css/main.7884b4f7.chunk.css",
+    "main.js": "./main.e99b4a0c.iframe.bundle.js",
+    "main.css.map": "./static/css/main.7884b4f7.chunk.css.map",
     "runtime~main.js": "./runtime~main.12d27871.iframe.bundle.js",
-    "vendors~main.js": "./vendors~main.9bf75120.iframe.bundle.js",
-    "vendors~main.js.map": "./vendors~main.9bf75120.iframe.bundle.js.map",
+    "vendors~main.js": "./vendors~main.9875ac12.iframe.bundle.js",
+    "vendors~main.js.map": "./vendors~main.9875ac12.iframe.bundle.js.map",
     "4.2696a30a.iframe.bundle.js": "./4.2696a30a.iframe.bundle.js",
     "4.2696a30a.iframe.bundle.js.map": "./4.2696a30a.iframe.bundle.js.map",
     "5.0559c9ad.iframe.bundle.js": "./5.0559c9ad.iframe.bundle.js",
@@ -24,12 +24,12 @@
     "static/media/plugin.d494b228.svg": "./static/media/plugin.d494b228.svg",
     "static/media/repo.6d496322.svg": "./static/media/repo.6d496322.svg",
     "static/media/stackalt.dba9fbb3.svg": "./static/media/stackalt.dba9fbb3.svg",
-    "vendors~main.9bf75120.iframe.bundle.js.LICENSE.txt": "./vendors~main.9bf75120.iframe.bundle.js.LICENSE.txt"
+    "vendors~main.9875ac12.iframe.bundle.js.LICENSE.txt": "./vendors~main.9875ac12.iframe.bundle.js.LICENSE.txt"
   },
   "entrypoints": [
     "runtime~main.12d27871.iframe.bundle.js",
-    "vendors~main.9bf75120.iframe.bundle.js",
-    "static/css/main.4c68319a.chunk.css",
-    "main.c7b849e6.iframe.bundle.js"
+    "vendors~main.9875ac12.iframe.bundle.js",
+    "static/css/main.7884b4f7.chunk.css",
+    "main.e99b4a0c.iframe.bundle.js"
   ]
 }
